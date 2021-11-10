@@ -7,5 +7,7 @@ public class Application {
     Thread t1 = new Thread(runnable);
     System.out.println("Main method is executed by thread : " + Thread.currentThread().getName());
     t1.start();
+    //Calling a thread twice
+    //t1.start();
   }
 }
